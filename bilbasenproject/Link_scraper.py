@@ -70,9 +70,9 @@ def save_to_csv(car_details, filename='C:\\Cand.merc.BI\\2. Semester\\Data Scien
 def main():
     driver = initialize_driver()
     try:
-        file_path = 'C:\\Cand.merc.BI\\2. Semester\\Data Science Project\\Project\\BilbasenProject\\all_electric_car_links - Copy.csv'
+        file_path = 'C:\\Cand.merc.BI\\2. Semester\\Data Science Project\\Project\\BilbasenProject\\all_electric_car_links.csv'
         df = pd.read_csv(file_path)
-        urls = df['Car Links'].iloc[5611:].tolist()  # Start from where you stopped last
+        urls = df['Car Links'].iloc[1:].tolist()  # Start from where you stopped last
 
         for url in urls:
             car_details = fetch_car_details(driver, url)
