@@ -68,16 +68,19 @@ def save_to_csv(car_details, filename='scraped_cars/all_data.csv'):
         updated_df = new_df
     updated_df.to_csv(filename, index=False, encoding='utf-8-sig')
 
-def main(number_of_rows=None):
+def main(start_from_row=0, number_of_rows=None):
     """The main function to initialize the driver, scrape data, and handle exceptions."""
     driver = initialize_driver()
     try:
         file_path = 'scraped_links/merged_car_links.csv'
         df = pd.read_csv(file_path)
-        if number_of_rows is not None:
-            df = df.iloc[:number_of_rows]
-        
-        print(f"Processing {len(df)} rows")
+        # Adjust DataFrame slicing according to the starting row and the number of rows
+        if number_of_rows:
+            df = df.iloc[start_from_row:start_from_row+number_of_rows]
+        else:
+            df = df.iloc[start_from_row:]
+
+        print(f"Processing {len(df)} rows starting from row {start_from_row+1}")
         for index, row in df.iterrows():
             url = row['Car Links']
             seller_type = row['dealer/private']
@@ -91,4 +94,4 @@ def main(number_of_rows=None):
         print("Scraping session completed.")
 
 if __name__ == "__main__":
-    main()  # Specify the number of rows. Empty = all
+    main(start_from_row=5462)  # Add `start_from_row` and `number_of_rows` as needed
