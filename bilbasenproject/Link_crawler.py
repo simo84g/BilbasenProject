@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
-import random
 import time
 
 from selenium.webdriver.chrome.options import Options
@@ -17,15 +16,12 @@ def initialize_driver():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920x1080")
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    # Spoof user agent
     chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=chrome_options)
 
-
 def fetch_car_links_with_selenium(base_url, start_page, max_pages):
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service)
+    driver = initialize_driver()
     all_links = set()
 
     try:
@@ -55,11 +51,6 @@ def fetch_car_links_with_selenium(base_url, start_page, max_pages):
                 print(f"No new links on page {current_page}. Stopping...")
                 break
 
-            # Randomize wait time to mimic human behavior more closely
-            random_sleep_time = random.randint(10, 60)  # Wait between 10 to 60 seconds
-            time.sleep(random_sleep_time)
-            print(f"Waited for {random_sleep_time} seconds.")
-
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
@@ -68,10 +59,13 @@ def fetch_car_links_with_selenium(base_url, start_page, max_pages):
     return list(all_links)
 
 # Example usage
-base_url = "https://www.bilbasen.dk/brugt/bil?fuel=3&pricetype=Retail"
-links = fetch_car_links_with_selenium(base_url, 101, 317)  # Adjusted for pages 101 to 200
+base_url = "https://www.bilbasen.dk/brugt/bil?fuel=3&mileagefrom=50001&pricetype=Retail&sellertypes=dealer" #Adjust link
+links = fetch_car_links_with_selenium(base_url, 1, 35)  # Adjust for pages
 
-# Create and print DataFrame
+# Create DataFrame
 df_links = pd.DataFrame(links, columns=['Car Links'])
+df_links['dealer/private'] = 'dealer'  # Add 'dealer/private' column with all values set to private / dealer
+
+# Print and save DataFrame
 print(df_links)
-df_links.to_csv('all_electric_car_links_101to317.csv', index=False)
+df_links.to_csv('scraped_links/car_links_dealer_50001_rest_km.csv', index=False) #adjust name

@@ -10,55 +10,56 @@ from bs4 import BeautifulSoup
 import time
 
 def initialize_driver():
+    """Initializes and returns a headless Chrome WebDriver with minimal logging."""
     chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run Chrome in headless mode
-    chrome_options.add_argument("--disable-gpu")  # Disable GPU hardware acceleration
-    chrome_options.add_argument("--window-size=1920x1080")  # Set window size for consistency
-    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])  # Suppress logging
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--window-size=1920x1080")
+    chrome_options.add_argument("--log-level=3")
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=chrome_options)
 
 def parse_url_for_details(url):
+    """Extracts brand, model, and variant from the URL."""
     parts = url.split('/')
     brand = parts[5]
     model = parts[6]
-    variant = parts[7].rsplit('-', 2)[0]  # Assuming the format is always like 'variant-5d-id'
+    variant = parts[7].rsplit('-', 2)[0]
     return brand, model, variant
 
-def fetch_car_details(driver, url):
-    try:
-        driver.get(url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'main')))
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
+def fetch_car_details(driver, url, seller_type):
+    """Fetches car details from the URL and returns a dictionary of these details."""
+    car_details = {'Link': url, 'Seller Type': seller_type}
+    driver.get(url)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'main')))
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-        brand, model, variant = parse_url_for_details(url)
-        car_details = {
-            'Link': url,
-            'Brand': brand.capitalize(),
-            'Model': model.upper(),
-            'Variant': variant.replace('-', ' ').capitalize()
-        }
+    brand, model, variant = parse_url_for_details(url)
+    car_details.update({
+        'Brand': brand.capitalize(),
+        'Model': model.upper(),
+        'Variant': variant.replace('-', ' ').capitalize()
+    })
 
-        car_price = soup.select_one('#root > div.nmp-ads-layout__page > div.nmp-ads-layout__content > div.bas-Wrapper-wrapper > article > main > div.bas-MuiVipPageComponent-headerAndPrice > div.bas-MuiCarPriceComponent-container > div > div > span')
-        car_details['Price'] = car_price.get_text(strip=True) if car_price else "Price not found"
+    car_price = soup.select_one('#root > div.nmp-ads-layout__page > div.nmp-ads-layout__content > div.bas-Wrapper-wrapper > article > main > div.bas-MuiVipPageComponent-headerAndPrice > div.bas-MuiCarPriceComponent-container > div > div > span')
+    car_details['Price'] = car_price.get_text(strip=True) if car_price else "Price not found"
 
-        main_section = soup.find('main')
-        for tbody in main_section.find_all('tbody', class_='bas-MuiTableBody-root'):
-            for row in tbody.find_all('tr', class_='bas-MuiTableRow-root'):
-                key = row.find('th', class_='bas-MuiTableCell-root').get_text(strip=True)
-                value = row.find('td', class_='bas-MuiTableCell-root').get_text(strip=True)
-                car_details[key] = value
-                if key == "Døre":
-                    break
-            else:
-                continue
+    main_section = soup.find('main')
+    for tbody in main_section.find_all('tbody'):
+        for row in tbody.find_all('tr'):
+            key = row.find('th').get_text(strip=True)
+            value = row.find('td').get_text(strip=True)
+            car_details[key] = value
+            if key == "Døre":
+                break
+        if key == "Døre":
             break
-    except Exception as e:
-        print(f"Error scraping {url}: {e}")
-        car_details = {'Link': url, 'Error': 'Failed to load data'}
+
     return car_details
 
-def save_to_csv(car_details, filename='C:\\Cand.merc.BI\\2. Semester\\Data Science Project\\Project\\BilbasenProject\\scraped_car_data.csv'):
+def save_to_csv(car_details, filename='scraped_cars/all_data.csv'):
+    """Saves the car details to a CSV file."""
     new_df = pd.DataFrame([car_details])
     try:
         df = pd.read_csv(filename)
@@ -67,21 +68,27 @@ def save_to_csv(car_details, filename='C:\\Cand.merc.BI\\2. Semester\\Data Scien
         updated_df = new_df
     updated_df.to_csv(filename, index=False, encoding='utf-8-sig')
 
-def main():
+def main(number_of_rows=None):
+    """The main function to initialize the driver, scrape data, and handle exceptions."""
     driver = initialize_driver()
     try:
-        file_path = 'C:\\Cand.merc.BI\\2. Semester\\Data Science Project\\Project\\BilbasenProject\\all_electric_car_links.csv'
+        file_path = 'scraped_links/merged_car_links.csv'
         df = pd.read_csv(file_path)
-        urls = df['Car Links'].iloc[1:].tolist()  # Start from where you stopped last
-
-        for url in urls:
-            car_details = fetch_car_details(driver, url)
+        if number_of_rows is not None:
+            df = df.iloc[:number_of_rows]
+        
+        print(f"Processing {len(df)} rows")
+        for index, row in df.iterrows():
+            url = row['Car Links']
+            seller_type = row['dealer/private']
+            print(f"Processing {url}")
+            car_details = fetch_car_details(driver, url, seller_type)
             save_to_csv(car_details)
             print(f"Data saved for {url}")
-            time.sleep(2)  # Moderate the request rate to avoid being blocked
-
+            time.sleep(1)
     finally:
         driver.quit()
+        print("Scraping session completed.")
 
 if __name__ == "__main__":
-    main()
+    main()  # Specify the number of rows. Empty = all
