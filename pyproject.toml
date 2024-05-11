@@ -13,6 +13,7 @@ bs4 = "^0.0.2"
 requests = "^2.31.0"
 webdriver-manager = "^4.0.1"
 jupyter = "^1.0.0"
+seaborn = "^0.13.2"
 
 
 [build-system]
