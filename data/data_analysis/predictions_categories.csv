@@ -1,74 +1,74 @@
-Kolonne1;Price_kr;LM_predictions;prediction_difference;%_diff_from_LM;price_category;Link
-272;289900;261754.9076;28145.09236;0.107524602;Expensive;https://www.bilbasen.dk/brugt/bil/vw/id4/1st-max-5d/6104805
-332;309900;328132.7336;-18232.73364;-0.055565117;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6153109
-468;214900;233893.0201;-18993.02006;-0.081203877;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6036483
-98;299000;287816.6366;11183.36335;0.038855861;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6029142
-437;359800;326734.8729;33065.12712;0.101198647;Expensive;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6155524
-203;279900;289013.4898;-9113.489826;-0.031533095;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/1st-5d/6131940
-29;375000;339005.9357;35994.06429;0.106175322;Expensive;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6012253
-54;239500;248330.4538;-8830.453842;-0.035559287;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6054488
-244;258800;279766.7275;-20966.72748;-0.074943606;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6147952
-160;359800;335111.1436;24688.8564;0.073673636;Overpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6083541
-282;294900;275238.925;19661.075;0.071432756;Overpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-max-5d/6150993
-454;354600;408467.754;-53867.75399;-0.131877617;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6152809
-171;219700;227999.722;-8299.721999;-0.036402334;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6092454
-163;279900;284376.9399;-4476.939945;-0.015742978;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6015015
-136;314900;296623.8271;18276.17295;0.061613975;Overpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-max-5d/6123210
-189;329900;332045.3364;-2145.336399;-0.006460974;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6069417
-103;349900;340639.672;9260.328014;0.027185113;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6021278
-410;299900;314979.3288;-15079.32885;-0.047874027;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6156512
-344;307700;327963.0055;-20263.00553;-0.061784424;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6123925
-153;269900;282941.5769;-13041.57688;-0.046092826;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6147742
-427;304900;313355.0612;-8455.061243;-0.026982367;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6138361
-169;299900;289634.8776;10265.12236;0.035441596;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6055624
-260;269900;283266.888;-13366.88795;-0.047188318;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6156404
-392;239900;238684.3623;1215.637686;0.005093076;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6151053
-355;349800;354089.8763;-4289.876277;-0.012115219;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6087967
-413;284900;315817.7931;-30917.79307;-0.097897565;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6154298
-217;309000;293681.9253;15318.07468;0.052158725;Overpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6088248
-213;289700;297735.8489;-8035.848892;-0.02698986;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6027623
-408;279900;301292.9262;-21392.92616;-0.071003745;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6139373
-391;309800;325533.2868;-15733.28684;-0.048330808;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6155516
-37;324900;335498.704;-10598.70399;-0.031590894;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/5967324
-448;204700;232276.7658;-27576.76575;-0.118723737;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6079318
-479;264900;294592.457;-29692.45702;-0.10079164;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/1st-pro-5d/6034008
-198;264700;294138.9578;-29438.95777;-0.100085205;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6152254
-381;219900;232724.9022;-12824.90215;-0.055107563;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6061658
-216;299800;286104.1668;13695.83324;0.047870094;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6123909
-149;309780;332017.7605;-22237.76055;-0.066977623;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6031542
-421;339900;328132.7336;11767.26636;0.0358613;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-active-5d/6046602
-418;299999;345787.1617;-45788.16171;-0.132417183;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6152092
-266;309900;278202.1133;31697.88672;0.113938339;Expensive;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6113992
-319;269700;273743.4882;-4043.488245;-0.014771085;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6071382
-239;319900;327751.9261;-7851.926124;-0.023956918;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6153247
-406;314999;353029.9161;-38030.91614;-0.107727177;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6139551
-456;369900;317155.0669;52744.93311;0.166306449;Expensive;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6128421
-348;369000;403632.9271;-34632.92712;-0.085803027;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6154703
-457;309900;302213.9305;7686.069508;0.025432545;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6139369
-22;289900;295010.5258;-5110.525761;-0.017323198;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-performance-5d/5529909
-230;284900;290204.7228;-5304.722793;-0.018279244;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6158925
-140;339900;380794.4231;-40894.42313;-0.10739239;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6158245
-305;269900;279160.7494;-9260.749353;-0.033173537;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6153675
-69;339800;401283.5658;-61483.56583;-0.153217253;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/5966312
-379;299700;306523.6445;-6823.644534;-0.022261397;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6048153
-449;369000;390461.6582;-21461.65819;-0.054964829;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6069683
-125;269900;285763.8968;-15863.89684;-0.055514;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6106258
-315;334700;324538.3531;10161.64691;0.031311082;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6118604
-292;284000;265703.1179;18296.88209;0.068862128;Overpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6129861
-235;279800;293980.4183;-14180.41826;-0.048235928;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6152773
-43;254900;246977.8295;7922.170468;0.032076444;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/style-5d/6100073
-205;274500;292636.7692;-18136.7692;-0.061977069;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/1st-pro-5d/6135083
-195;314900;289252.1553;25647.84466;0.088669502;Overpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/max-performance-5d/6128881
-247;289900;276125.15;13774.85003;0.049886256;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/5975093
-234;259800;289453.3393;-29653.33928;-0.102446009;Cheap;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-5d/6155606
-428;299900;309191.5018;-9291.501815;-0.030050961;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6101534
-129;284900;286331.1725;-1431.1725;-0.004998312;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6140595
-275;249780;245829.2245;3950.77551;0.01607122;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/1st-max-5d/6137873
-23;344900;335053.6607;9846.339293;0.02938735;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6119044
-90;329900;296070.77;33829.22997;0.114260621;Expensive;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6069728
-20;419900;422288.7037;-2388.703715;-0.005656566;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6098868
-152;317000;303666.2491;13333.75091;0.043909229;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6146138
-412;234900;239263.8265;-4363.826497;-0.018238555;Fair priced;https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6145799
-330;339900;311481.4944;28418.50561;0.091236578;Overpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/tech-performance-5d/6117676
-154;349700;374693.9503;-24993.9503;-0.066704974;Underpriced;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6146023
-62;468800;411037.4339;57762.56606;0.140528724;Expensive;https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/5840091
+,Price_kr,LM_predictions,prediction_difference,%_diff_from_LM,price_category,Link
+272,289900,261754.9076429707,28145.092357029294,0.10752460234831099,Expensive (>10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/1st-max-5d/6104805
+332,309900,328132.73363672517,-18232.73363672517,-0.05556511669728927,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6153109
+468,214900,233893.0200562044,-18993.020056204405,-0.08120387710432911,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6036483
+98,299000,287816.63664630183,11183.363353698165,0.03885586144014813,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6029142
+437,359800,326734.8728830688,33065.127116931195,0.10119864716358108,Expensive (>10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6155524
+203,279900,289013.4898258593,-9113.489825859317,-0.03153309498235017,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/1st-5d/6131940
+29,375000,339005.9357113417,35994.06428865832,0.1061753217185752,Expensive (>10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6012253
+54,239500,248330.45384194536,-8830.45384194536,-0.035559286850760846,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6054488
+244,258800,279766.7274764025,-20966.727476402477,-0.07494360628774542,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6147952
+160,359800,335111.14360045636,24688.85639954364,0.07367363595935644,Overpriced (5-10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6083541
+282,294900,275238.92499607045,19661.075003929553,0.07143275611983389,Overpriced (5-10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-max-5d/6150993
+454,354600,408467.75398911047,-53867.75398911047,-0.13187761693067834,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6152809
+171,219700,227999.72199879595,-8299.721998795954,-0.03640233385389735,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6092454
+163,279900,284376.9399448585,-4476.939944858488,-0.015742978125183354,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6015015
+136,314900,296623.82705480757,18276.172945192433,0.061613974597581875,Overpriced (5-10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-max-5d/6123210
+189,329900,332045.3363991538,-2145.3363991538063,-0.006460974342897814,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6069417
+103,349900,340639.67198589566,9260.328014104336,0.027185113114152375,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6021278
+410,299900,314979.3288498635,-15079.328849863494,-0.0478740268605091,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6156512
+344,307700,327963.0055348811,-20263.005534881086,-0.061784424440902305,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6123925
+153,269900,282941.5768828091,-13041.57688280911,-0.04609282604023504,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6147742
+427,304900,313355.0612425178,-8455.061242517782,-0.026982366932232438,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6138361
+169,299900,289634.877644994,10265.122355005995,0.03544159611739845,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6055624
+260,269900,283266.88795154047,-13366.88795154047,-0.04718831787295659,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6156404
+392,239900,238684.36231399607,1215.6376860039309,0.005093076371734504,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6151053
+355,349800,354089.8762770444,-4289.8762770444155,-0.012115218661851722,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6087967
+413,284900,315817.79307451274,-30917.793074512738,-0.09789756547129731,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6154298
+217,309000,293681.9253199917,15318.074680008285,0.05215872465872023,Overpriced (5-10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6088248
+213,289700,297735.8488920711,-8035.84889207111,-0.026989860045318545,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6027623
+408,279900,301292.92615678377,-21392.926156783768,-0.071003745191321,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6139373
+391,309800,325533.28684014897,-15733.286840148969,-0.048330808172851146,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6155516
+37,324900,335498.70399371133,-10598.70399371133,-0.03159089399615086,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/5967324
+448,204700,232276.7657507414,-27576.76575074141,-0.11872373744145517,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6079318
+479,264900,294592.4570206544,-29692.4570206544,-0.10079164049530505,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/1st-pro-5d/6034008
+198,264700,294138.95776747377,-29438.957767473767,-0.10008520459485072,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6152254
+381,219900,232724.90215259715,-12824.902152597148,-0.055107562766050236,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6061658
+216,299800,286104.16675846,13695.833241540007,0.04787009359812138,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6123909
+149,309780,332017.76054906455,-22237.76054906455,-0.0669776234629422,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6031542
+421,339900,328132.73363672517,11767.26636327483,0.03586129988574178,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-active-5d/6046602
+418,299999,345787.16171446134,-45788.16171446134,-0.13241718254500023,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6152092
+266,309900,278202.113281801,31697.886718199006,0.11393833908835577,Expensive (>10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6113992
+319,269700,273743.488245311,-4043.4882453110185,-0.014771084679418962,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6071382
+239,319900,327751.92612351483,-7851.92612351483,-0.02395691832046105,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6153247
+406,314999,353029.9161386834,-38030.91613868339,-0.10772717665021742,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6139551
+456,369900,317155.06688709545,52744.933112904546,0.16630644949362042,Expensive (>10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6128421
+348,369000,403632.927115028,-34632.927115028026,-0.08580302742535738,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6154703
+457,309900,302213.9304919317,7686.069508068322,0.025432545401058274,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6139369
+22,289900,295010.5257611538,-5110.525761153782,-0.01732319803833495,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-performance-5d/5529909
+230,284900,290204.72279315215,-5304.722793152148,-0.018279243501261592,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6158925
+140,339900,380794.42313284124,-40894.42313284124,-0.10739238982650516,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6158245
+305,269900,279160.749352703,-9260.749352702987,-0.03317353666006456,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6153675
+69,339800,401283.56582546444,-61483.56582546444,-0.15321725348754076,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/5966312
+379,299700,306523.64453394833,-6823.6445339483325,-0.022261396977460886,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6048153
+449,369000,390461.65819440875,-21461.658194408752,-0.054964828796898436,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6069683
+125,269900,285763.8968360899,-15863.896836089902,-0.05551399953503996,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6106258
+315,334700,324538.3530918968,10161.646908103197,0.03131108176057641,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6118604
+292,284000,265703.11790733854,18296.882092661457,0.06886212791466874,Overpriced (5-10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6129861
+235,279800,293980.41825824673,-14180.418258246733,-0.04823592789704096,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6152773
+43,254900,246977.8295320368,7922.170467963209,0.03207644379648896,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/style-5d/6100073
+205,274500,292636.76919826365,-18136.769198263646,-0.06197706886920914,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/1st-pro-5d/6135083
+195,314900,289252.1553360566,25647.844663943397,0.08866950233835051,Overpriced (5-10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/max-performance-5d/6128881
+247,289900,276125.1499658856,13774.85003411438,0.049886256416035335,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/5975093
+234,259800,289453.3392794957,-29653.339279495704,-0.10244600858054874,Cheap (>10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-5d/6155606
+428,299900,309191.5018149148,-9291.501814914809,-0.030050961169291117,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6101534
+129,284900,286331.172499595,-1431.1724995949771,-0.0049983118746772205,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-5d/6140595
+275,249780,245829.2244897984,3950.775510201609,0.01607121984133974,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/1st-max-5d/6137873
+23,344900,335053.6607072256,9846.339292774384,0.029387350288878795,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6119044
+90,329900,296070.7700287594,33829.229971240624,0.11426062075616096,Expensive (>10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-1st-max-5d/6069728
+20,419900,422288.703714551,-2388.7037145509967,-0.005656565504924464,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6098868
+152,317000,303666.2490947902,13333.750905209803,0.04390922911241163,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pro-performance-5d/6146138
+412,234900,239263.8264970588,-4363.826497058792,-0.01823855515874413,Fair priced (Within 5% over or under value),https://www.bilbasen.dk/brugt/bil/vw/id4/pure-5d/6145799
+330,339900,311481.49438807793,28418.505611922068,0.0912365778511232,Overpriced (5-10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/tech-performance-5d/6117676
+154,349700,374693.95029548067,-24993.950295480667,-0.06670497422168316,Underpriced (5-10% under value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/6146023
+62,468800,411037.4339440831,57762.56605591689,0.14052872387232454,Expensive (>10% over value),https://www.bilbasen.dk/brugt/bil/vw/id4/gtx-4motion-5d/5840091
