@@ -94,4 +94,4 @@ def main(start_from_row=0, number_of_rows=None):
         print("Scraping session completed.")
 
 if __name__ == "__main__":
-    main(start_from_row=5462)  # Add `start_from_row` and `number_of_rows` as needed
+    main(start_from_row=5462)  # Add 'start_from_row =' or 'number_of_rows =' as needed
